@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.scau.cmi.ouyangqiaoke.controller.Ex1Controller">
+   <children>
+      <Button fx:id="button1" layoutX="64.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#btn1Click" text="添加守门员" />
+      <Button fx:id="button2" layoutX="416.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#btn2Click" text="添加球员" />
+      <TextArea fx:id="text" layoutY="157.0" prefHeight="243.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
